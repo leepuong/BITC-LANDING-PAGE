@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+}
+
+:root {
+    --Light-Sea-Green-Main: #20B2AA;
+    --Crystal-Other: #A5E0DD;
+    --Black: #000;
+    --Tinted-Black: #222;
+    --Dark-Gray: #555;
+    --Medium-Gray: #777;
+    --White: #fff;
+    --font-main: sans-serif;
+    --color-font-main: #2071B2;
+    --color-font-sub: #555;
+    --font-sub: Arial, Helvetica, sans-serif;
+
+}
+
+.f-main {
+    font-family: var(--font-main);
+    color: var(--color-font-main);
+    font-size: 0.875rem;
+    padding-bottom: 1rem;
+
+}
+
+.f-sub {
+    font-family: var(--font-sub);
+    color: var(--color-font-sub);
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+.bor-input {
+    border: solid 0.125rem var(--Medium-Gray);
+    border-color: var(--Medium-Gray);
+    border-style: solid;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 3px 3px 17px -4px #888888;
+
+
+}
+
+
+
+body {
+    background-image: linear-gradient(120deg, #afdefe, #f9f5dc) !important;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.block {
+    width: 35rem;
+    height: 32rem;
+    background-color: #FFF;
+    display: flex;
+    border-radius: 1rem;
+    padding: 2rem;
+
+
+    flex-direction: column;
+}
+
+
+.block__info {
+    display: flex;
+}
+
+.bloc__info-inline {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.block__info-name {
+    width: 50%;
+    padding: 0 1rem 0 0;
+}
+
+.block__info-phone {
+    width: 50%;
+    padding: 0 0 0 1rem;
+}
+
+
+.bor-input {
+    width: 100%;
+    height: 3rem;
+}
+
+.block__emo-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.cmt {
+    height: 6rem;
+}
+
+.btn {
+    height: 3rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: #20B2AA;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.range {
+    width: 85%;
+    margin: 1rem 0;
+    background: #A5E0DD;
+}
+
+.block__emo-range {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
